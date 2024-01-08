@@ -2,7 +2,7 @@ import { links } from "../assets/data";
 
 const Navbar = () => {
   return (
-    <nav className="bg-emerald-100 flex w-full">
+    <nav className="bg-emerald-100 ">
       <div className="allign_element py-2 flex gap-6 sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         <h2 className="text-3xl font-bold hidden md:block">
           Tanvir <span className="text-emerald-600"> Rafi</span>

@@ -5,12 +5,12 @@ import SectionTitle from "./SectionTitle";
 const About = () => {
   return (
     <section className="bg-white py-20" id="about">
-      <div className="allign-element grid md:grid-cols-2 items-center gap-5">
-        <img src={aboutSvg} className="w-full h-64" />
+      <SectionTitle text="About Me" />
+      <div className="allign-element grid grid-cols-1  md:grid-cols-2 items-center gap-2">
+        <img src={aboutSvg} className="w-full h-64 hidden md:block" />
 
         <article>
-          <SectionTitle text="About Me" />
-          <p className="text-slate-600 mt-8 leading-loose">
+          <p className="text-slate-600 mt-8 leading-loose pr-4  text-center md:text-start">
             I am Tanvir Rafi, a soon-to-be graduate in Computer Science and
             Engineering from the International Islamic University Chittagong.
             Specializing in web development with proficiency in JavaScript,

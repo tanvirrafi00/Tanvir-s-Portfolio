@@ -13,49 +13,50 @@ export const profiles = [
     id: nanoid(),
     url: "https://codeforces.com/profile/Tanvirrafi",
     title: "Codeforces",
-    icon: (
-      <img
-        src="/images/cf.svg"
-        alt=""
-        className="h-16 w-16 text-slate-500 hover:text-black duration-300"
-      />
-    ),
+    icon: <img src="/images/cf.svg" alt="" className="h-8 w-8" />,
+    rating_icon: <img src="/images/rating.svg" alt="" />,
+    participated_icon: <img src="/images/participated.svg" alt="" />,
+    totalsolve_icon: <img src="/images/totalSolve.svg" alt="" />,
+    rating: "1201",
+    participated: "121",
+    totalsolve: "1298",
   },
   {
     id: nanoid(),
     url: "https://leetcode.com/Tanvir_rafi/",
     title: "Leetcode",
-    icon: (
-      <img
-        src="/images/leetcode.svg"
-        alt=""
-        className="h-16 w-16 text-slate-500 hover:text-black duration-300"
-      />
-    ),
+    icon: <img src="/images/leetcode.svg" alt="" className="h-8 w-8" />,
+    rating_icon: <img src="/images/rating.svg" alt="" />,
+    participated_icon: <img src="/images/participated.svg" alt="" />,
+    totalsolve_icon: <img src="/images/totalSolve.svg" alt="" />,
+
+    rating: "0",
+    participated: "0",
+    totalsolve: "114",
   },
   {
     id: nanoid(),
     url: "https://www.codechef.com/users/tanvir_rafi",
     title: "Codechef",
-    icon: (
-      <img
-        src="/images/codechef.svg"
-        alt=""
-        className="h-16 w-16 text-slate-500 hover:text-black duration-300"
-      />
-    ),
+    icon: <img src="/images/codechef.svg" alt="" className="h-8 w-8" />,
+    rating_icon: <img src="/images/rating.svg" alt="" />,
+    participated_icon: <img src="/images/participated.svg" alt="" />,
+    totalsolve_icon: <img src="/images/totalSolve.svg" alt="" />,
+    rating: "1637",
+    participated: "43",
+    totalsolve: "153",
   },
   {
     id: nanoid(),
-    url: "https://www.hackerrank.com/Rafi_C193011",
-    title: "HackerRank",
-    icon: (
-      <img
-        src="/images/hackerRank.svg"
-        alt=""
-        className="h-16 w-16 text-slate-500 hover:text-black duration-300"
-      />
-    ),
+    url: "https://atcoder.jp/users/Tanvir_rafi",
+    title: "Atcoder",
+    icon: <img src="/images/atcoder.svg" alt="" className="h-8 w-8" />,
+    rating_icon: <img src="/images/rating.svg" alt="" />,
+    participated_icon: <img src="/images/participated.svg" alt="" />,
+    totalsolve_icon: <img src="/images/totalSolve.svg" alt="" />,
+    rating: "520",
+    participated: "62",
+    totalsolve: "218",
   },
 ];
 

@@ -1,12 +1,12 @@
-import SectionTitle from "../SectionTitle";
-import { profiles } from "../../assets/data";
-import SingleProfile from "../SingleProfile";
+import SectionTitle from "./SectionTitle";
+import { profiles } from "../assets/data";
+import SingleProfile from "./SingleProfile";
 
 const CodingProfiles = () => {
   return (
     <section className="py-20 allign_element" id="coding profiles">
       <div className="flex flex-col justify-center items-center text-center gap-3">
-        <SectionTitle text="My coding Profiles" />
+        <SectionTitle text="Competitive Programming " />
         <p className="text-slate-600 mt-8 leading-loose text-center">
           A dedicated problem solver, I honed my skills through extensive
           competitive programming during university, participating in numerous
@@ -21,7 +21,7 @@ const CodingProfiles = () => {
           dynamic coding environments.
         </p>
 
-        <div className="flex flex-row gap-5  md:gap-14 ">
+        <div className="grid  grid-cols-1 w-full sm:grid-cols-2 gap-2 ">
           {profiles.map((profile) => {
             return <SingleProfile key={profile.id} {...profile} />;
           })}
