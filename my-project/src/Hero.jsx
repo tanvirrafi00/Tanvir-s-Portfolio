@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 className="text-7xl font-bold tracking-wider">I'm Tanvir Rafi</h1>
 
           <p className="mt-4 text-2xl text-slate-700 capitalize tracking-wide">
-            Front-end developer | React Js | Competitive Programmer
+             QA Automation| Competitive Programmer
           </p>
 
           <div className="flex gap-x-4 mt-4">
